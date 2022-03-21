@@ -6,20 +6,26 @@
 header h1{
     text-align: center;
     border: 1px solid black;
+    color: #139c19;
+    box-shadow: #000;
+    font-size: 90px;
 }
 /* nav, ul, li */
  .nav__ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    align-items: center;
     border: 1px solid maroon;
-    border-radius: 10px;
-    max-width: 50%;
+    border-radius: 25px;
+    max-width: 77%;
+    height: 50px;
     margin: 0px auto;
-    background-color: #444;
+    background: linear-gradient(#444, #111);
+    box-shadow: #c9c9c9;
 }
 .nav__ul >li{
     list-style-type: none;
+    padding-right: 40px;
 }
 .nav__ul a{
     text-decoration: none;
