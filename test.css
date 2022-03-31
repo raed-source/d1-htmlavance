@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
+}
+.menu-panneau{
+    margin-top: 55px;
+    background-color: rgb(103, 171, 231);
+}
+.item{
+    display: table-cell;
+}
+.item >a{
+    text-decoration: none;
+    color: white;
+    
+}
+.item >a:hover{
+   color: green;
+}
+.col a{
+    color: gray;
+}
+section {
+    display: flex;
+    align-items: center;
+    vertical-align:;
+}
+.panneau{
+    display: none;
+    position: absolute;
+}
+ .item-panneau a{
+    text-decoration: none;
+}
+.item:hover .panneau{
+    display: block;
+}
+.container{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
