@@ -18,6 +18,12 @@ body{
 .item >a:hover{
    color: green;
 }
+.item-panneau a{
+    text-decoration: none;
+}
+.item:hover .panneau{
+    display: block;
+}
 .col a{
     color: gray;
 }
@@ -30,12 +36,7 @@ section {
     display: none;
     position: absolute;
 }
- .item-panneau a{
-    text-decoration: none;
-}
-.item:hover .panneau{
-    display: block;
-}
+
 .container{
     display: flex;
 }
