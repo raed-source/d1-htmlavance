@@ -166,13 +166,10 @@ figure {
 }
 
 figcaption {
-    /* display: inline-block; */
     float: right;
     margin-right:50px ;
 }
-p {
-    /* padding: 30px 10px; */
-}
+
 .art-tab{
     margin: 10px auto;
     width: 700px;
