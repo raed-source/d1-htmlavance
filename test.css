@@ -43,3 +43,24 @@ section {
 li{
     list-style-type: none;
 }
+
+/* animations----------------------------------- */
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+    transition: width 8s, height 5s;
+}
+.parent:hover{
+    width: 800px;
+    height: 100px;
+}
+.translate{
+    transform: rotate(100deg);
+    transform-origin:top;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid saddlebrown;
+}
