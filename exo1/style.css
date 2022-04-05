@@ -88,7 +88,9 @@ header {
 }
 .item:hover .panneau{
     display: block;
-    /* border: 3px 3px 3px 0px solid black; */
+    border-bottom: 3px  solid black;
+    border-left: 3px  solid black;
+    border-right: 3px  solid black;
 }
 .item2 li{
     display: block;
@@ -101,11 +103,19 @@ header {
     margin-left: 350px; 
     margin-top: 10px; 
     border: 3px solid black;
+    border-bottom: 3px  solid black;
+    border-left: 3px  solid black;
+    border-right: 3px  solid black;
     background-image: linear-gradient(#19b123, #139c19);
 }
 .item2:hover .panneau2{
     display: block;
     border: 3px solid black;
+}
+.item-panneau a:hover{
+    color: #ededed;
+    text-shadow: 50px 1px 100px #000;
+    text-decoration: none;
 }
 .tache-verte {
     width: 50px;
@@ -121,9 +131,6 @@ header {
 h2 {
     display: inline;
     color: var(--main-color);
-}
-.art {
-    /* margin: 60px 0px; */
 }
 .art:first-child p{
     color: #777;
